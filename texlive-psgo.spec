@@ -45,6 +45,7 @@ TeXLive psgo package.
 %doc %{_texmfdistdir}/doc/latex/psgo/README
 %doc %{_texmfdistdir}/doc/latex/psgo/psgomanual.pdf
 %doc %{_texmfdistdir}/doc/latex/psgo/psgomanual.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -55,3 +56,5 @@ TeXLive psgo package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
