@@ -6,7 +6,7 @@
 # catalog-version 0.17
 Name:		texlive-psgo
 Version:	0.17
-Release:	6
+Release:	7
 Summary:	Typeset go diagrams with PSTricks
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pstricks/contrib/psgo
