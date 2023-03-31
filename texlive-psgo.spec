@@ -1,6 +1,6 @@
 Name:		texlive-psgo
 Version:	15878
-Release:	1
+Release:	2
 Summary:	Typeset go diagrams with PSTricks
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pstricks/contrib/psgo
