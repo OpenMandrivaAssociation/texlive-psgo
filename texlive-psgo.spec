@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Typeset go diagrams with PSTricks
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/graphics/pstricks/contrib/psgo
+URL:		https://www.ctan.org/tex-archive/graphics/pstricks/contrib/psgo
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/psgo.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/psgo.doc.r%{version}.tar.xz
